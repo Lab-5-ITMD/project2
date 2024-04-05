@@ -165,7 +165,7 @@
     margin: 0;
  }
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: black;
   }
   .dropdown-content {
 	margin-top:25px;
