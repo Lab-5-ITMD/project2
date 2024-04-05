@@ -1,7 +1,7 @@
 body {
-  background: red;
   margin: 0;
   padding: 0;
+  font-family: 'Source Sans Pro', 'Arial', sans-serif;
 }
 
 #content {
@@ -37,6 +37,9 @@ ol li {
 #input-username input, 
 #input-password input {
   box-sizing: border-box;
+  margin: 0.4em o;
+  width: 100%;
+  padding: 0.6em;
 }
 
 #input-submit-container {
@@ -50,7 +53,7 @@ ol li {
   border: none;
   cursor: pointer;
   height: 50px;
-  width: 70%;
+  width: 90%;
   font-weight: bold;
 }
 
@@ -59,8 +62,31 @@ ol li {
   border-radius: 0.4em;
   color: white;
   background-color: red;
+  margin-left: 20px;
+  font-family: 'Source Sans Pro', 'Arial', sans-serif;
+  width: 100%;
 }
 
+#icons p {
+  position: relative;
+  display: inline;
+  width: 200px;
+  height: 200px;
+  margin: 4em;
+  border: solid;
+  border-radius: 0.5em;
+}
+
+#icons img {
+  position: relative;
+  display: inline;
+  width: 150px;
+  height: 150px;
+  margin: 3em;
+  border: solid;
+  border-radius: 0.5em;
+}
+  
 /*This applies from 600px onwards (desktop)*/
 @media (min-width: 600px) {
   body {
