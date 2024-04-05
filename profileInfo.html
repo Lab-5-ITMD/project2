@@ -3,22 +3,55 @@
 <head>
   <meta charset="utf-8">
   <title>Student Profile</title>
+  <!--<link rel="stylesheet" type="text/css" href="css/normalize.css">-->
+  <link rel="stylesheet" href="css/PIstyle.css">
 </head>
 <body>
   <div id="container">
-    <a href="https://iit.okta.com/app/UserHome?session_hint=AUTHENTICATED">ILLINOIS TECH</a>
+    <header class="header">
+      <div class="nav">
+      <div class="navContainer">
+		<div class="dropdown">
+		  <button class="menuButton">Menu 
+			<i class="fa fa-caret-down"></i>
+          </button>
+            <div class="externalLinks">
+              <ul class="ddMenu">
+                <li><a href="https://bnrappsprd.iit.edu/StudentSelfService/ssb/studentCommonDashboard">Dashboard</a></li>
+		        <li><a href="https://bnrappsprd.iit.edu/StudentSelfService/ssb/studentProfile">Profile</a></li>
+		        <li><a href="https://bnrapiprd.iit.edu/StudentRegistrationSsb/ssb/registration">Registration</a></li>
+		        <li><a href="https://bnrappsprd.iit.edu/StudentSelfService/ssb/studentGrades">Grades</a></li>
+		        <li><a href="https://bnrappsprd.iit.edu/StudentSelfService/ssb/graduationApplication#!/term">Apply to Graduate</a></li>
+		        <li><a href="https://bnrappsprd.iit.edu/StudentSelfService/ssb/academicTranscript#!/:transcriptLevel/:transcriptType">Unofficial Transcript</a></li>
+		        <li><a href="https://www.parchment.com/u/registration/33812/institution">Request Official Transcript</a></li>
+		        <li><a href="https://bnrappsprd.iit.edu/StudentSelfService/ssb/financialAid#!/dashboard/home/2324">Financial Aid</a></li>
+		        <li><a href="https://secure.touchnet.com/C20090_tsa/web/welcome.jsp">Billing and Payments</a></li>
+		        <li><a href="https://wildfly-prd.iit.edu/biodem/user/index.xhtml">Update All Contact Info</a></li>
+              </ul>
+            </div>
+        </div>
+        </div>
+            <a class = "title" href="https://iit.okta.com/app/UserHome?session_hint=AUTHENTICATED">ILLINOIS TECH</a>
+        </div>
+    </header>
     <hr>
-    <h2>John's Profile</h2>
-    <img src="media/johnSmith.jpeg" alt="John Smith Student">
-    <p><strong>John A. Smith</strong></p>
-    <div id="person info">
+    <h2 id="userPf">John's Profile</h2>
+    <img src="media/johnSmith.jpeg" alt="John Smith Student" id="expic">
+    <p id="userName"><strong>John A. Smith</strong></p>
+    <div id="personInfo">
       <p><strong>HAWK ID:</strong> A12345678</p>
       <p><strong>HAWK EMAIL:</strong> jsmith1@hawk.iit.edu</p>
     </div>
-    <img src="media/infoPage.jpeg" alt="Student info page">
-    <a href="https://bnrappsprd.iit.edu/BannerGeneralSsb/ssb/personalInformation#/personalInformationMain">Personal Information</a>
-    <img src="media/bank.png" alt="Student Direct deposit">
-    <a href="https://bnrappsprd.iit.edu/BannerGeneralSsb/ssb/directDeposit#/directDepositListing">Direct Deposit</a>
+    <div class="picLinks">
+      <div class="userInfo">
+        <img src="media/infoPage.jpeg" alt="Student info page">
+        <a href="https://bnrappsprd.iit.edu/BannerGeneralSsb/ssb/personalInformation#/personalInformationMain">Personal Information</a>
+      </div>
+      <div class="userDeposit">
+        <img src="media/bank.png" alt="Student Direct deposit">
+        <a href="https://bnrappsprd.iit.edu/BannerGeneralSsb/ssb/directDeposit#/directDepositListing">Direct Deposit</a>
+      </div>
+    </div>
   </div>
   <hr>
   <a href="https://www.ellucian.com/privacy">Privacy Policy</a>
