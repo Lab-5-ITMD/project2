@@ -1,7 +1,7 @@
 body {
   width: 599px;
   height: 1498px;
-  background-color: #820003;
+  background-color: #fff;
 }
 
 main {
@@ -12,26 +12,27 @@ main {
   margin-left: 10%;
   margin-right: 10%;
   background-color: #fff;
+  border: solid 5px black;
 }
 
 h1 {
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 h2 {
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   display: inline-block;
 }
 
 input[type="button"] {
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-weight: 700;
   background-color: #AA0004;
   color: #B99697;
 }
 
 label {
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   display: inline-block;
 }
 
