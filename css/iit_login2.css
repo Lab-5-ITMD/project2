@@ -1,22 +1,25 @@
 body {
-  width: 599px;
-  height: 1498px;
+  position: relative;
+  display: grid;
+  text-align: center;
   background-color: #fff;
+  padding: 0;
 }
 
 main {
   display: inline-block;
-  height: 99%;
-  width: 99%;
+  width: 599px;
+  height: 900px;
   padding: 10px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 0 auto;
   background-color: #fff;
   border: solid 5px black;
+  border-radius: 5px;
 }
 
 h1 {
   font-family: "Open Sans", Arial, sans-serif;
+  vertical-align: text-top;
 }
 
 h2 {
@@ -29,6 +32,9 @@ input[type="button"] {
   font-weight: 700;
   background-color: #AA0004;
   color: #B99697;
+  width: 150px;
+  height: 150px;
+  margin: 5px 50px;
 }
 
 label {
@@ -37,18 +43,27 @@ label {
 }
 
 .buttonImg {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
+  margin: 5px 50px;
 }
 
 .authDiv {
   display: inline-block;
 }
 
+#userDiv {
+  text-align: center;
+}
+
 #userProfile {
   height: 30px;
   width: 30px;
   display: inline-block;
+}
+
+form {
+  text-align: center;
 }
 
 label[for="enterCode"] {
@@ -92,8 +107,12 @@ label[for="securQuest"] {
 }
 
 #back {
-  display: block;
-  clear: left;
+  display: inline-block;
+  width: 40%;
+  height: auto;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 30px;
 }
 
 /**
