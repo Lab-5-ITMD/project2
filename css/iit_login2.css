@@ -27,19 +27,14 @@ h2 {
   display: inline-block;
 }
 
-input[type="button"] {
+.authButton {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 700;
-  background-color: #AA0004;
-  color: #B99697;
+  background-color: #00000000;
+  color: #00000000;
   width: 150px;
   height: 150px;
   margin: 5px 50px;
-}
-
-label {
-  font-family: "Open Sans", Arial, sans-serif;
-  display: inline-block;
 }
 
 .buttonImg {
@@ -62,48 +57,18 @@ label {
   display: inline-block;
 }
 
-form {
+#authSect { 
   text-align: center;
 }
 
-label[for="enterCode"] {
+.buttonLabel {
   display: block;
+  font-family: "Open Sans", Arial, sans-serif;
+  display: inline-block;
 }
 
-#enterCode {
-  display: block;
-}
-
-label[for="pushNotif"] {
-  display: block;
-}
-
-#pushNotif {
-  display: block;
-}
-
-label[for="phone"] {
-  display: block;
-}
-
-#phone {
-  display: block;
-}
-
-label[for="phoneExt"] {
-  display: block;
-}
-
-#phoneExt {
-  display: block;
-}
-
-label[for="securQuest"] {
-  display: block;
-}
-
-#securQuest {
-  display: block;
+.authButton {
+  
 }
 
 #back {
