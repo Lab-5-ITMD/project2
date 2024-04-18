@@ -1,47 +1,54 @@
 body {
-  width: 599px;
-  height: 1498px;
-  background-color: #820003;
+  position: relative;
+  display: grid;
+  text-align: center;
+  background-color: #fff;
+  padding: 0;
 }
 
 main {
   display: inline-block;
-  height: 99%;
-  width: 99%;
+  width: 599px;
+  height: 900px;
   padding: 10px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 0 auto;
   background-color: #fff;
+  border: solid 5px black;
+  border-radius: 5px;
 }
 
 h1 {
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
+  vertical-align: text-top;
 }
 
 h2 {
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   display: inline-block;
 }
 
-input[type="button"] {
-  font-family: "Open Sans", Helvetica, sans-serif;
+.authButton {
+  font-family: "Open Sans", Arial, sans-serif;
   font-weight: 700;
-  background-color: #AA0004;
-  color: #B99697;
-}
-
-label {
-  font-family: "Open Sans", Helvetica, sans-serif;
-  display: inline-block;
+  background-color: #00000000;
+  color: #00000000;
+  width: 150px;
+  height: 150px;
+  margin: 5px 50px;
 }
 
 .buttonImg {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
+  margin: 5px 50px;
 }
 
 .authDiv {
   display: inline-block;
+}
+
+#userDiv {
+  text-align: center;
 }
 
 #userProfile {
@@ -50,49 +57,27 @@ label {
   display: inline-block;
 }
 
-label[for="enterCode"] {
-  display: block;
+#authSect { 
+  text-align: center;
 }
 
-#enterCode {
+.buttonLabel {
   display: block;
+  font-family: "Open Sans", Arial, sans-serif;
+  display: inline-block;
 }
 
-label[for="pushNotif"] {
-  display: block;
-}
-
-#pushNotif {
-  display: block;
-}
-
-label[for="phone"] {
-  display: block;
-}
-
-#phone {
-  display: block;
-}
-
-label[for="phoneExt"] {
-  display: block;
-}
-
-#phoneExt {
-  display: block;
-}
-
-label[for="securQuest"] {
-  display: block;
-}
-
-#securQuest {
-  display: block;
+.authButton {
+  
 }
 
 #back {
-  display: block;
-  clear: left;
+  display: inline-block;
+  width: 40%;
+  height: auto;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 30px;
 }
 
 /**
