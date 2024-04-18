@@ -380,3 +380,185 @@ body {
 	margin-right:15px;
   }
 }
+/*Profile Page */
+#container .header{
+  background-color: red;
+}
+#container .title{
+  font-size: 50px;
+  color: white;
+}
+#container #userPf{
+  font-size: 38px;
+  
+}
+#container #expic{
+  display: block;
+  width: 35%;
+  height: auto;
+  margin: 0 auto;
+}
+#container #userName{
+  text-align: center;
+  font-size: 25px;
+}
+#container .picLinks{
+  display: flex;  
+}
+#container .userInfo,
+.userDeposit{
+  display: flex;  
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+}
+#container .menuButton{
+  width: 60px;
+}
+#container .navContainer{
+  float: left;
+}
+#container .ddMenu{
+  background-color: white;
+  display: none;
+  position: absolute;
+  width: 150px;
+}
+#container .ddMenu a {
+  color: black;  
+  padding: 12px 16px;  
+  text-decoration: none;  
+  display: block;
+}
+
+#container .dropdown:hover .ddMenu {  
+  display: block;
+}
+#container #personInfo{
+  margin-left: 3%;
+}
+#container #userPf{
+  margin-left: 4%;
+}
+
+@media (min-width: 580px) {
+  #container .userInfo,
+  .userDeposit {
+    width: 50%;
+  }
+  #container #userPf{
+    font-size: 25px;
+  }
+  #container #userName{
+    font-size: 20px;
+  }
+  #container .ddMenu{
+    font-family: inherit;
+    margin: 0;
+  }
+  
+}
+
+@media (max-width: 580px) {
+  #container .userInfo,
+  .userDeposit {
+    width: 80%; 
+  }
+  #container #expic {
+    width: 80%; 
+  }
+}
+
+/* Authentication page */
+ body {
+  position: relative;
+  display: grid;
+  text-align: center;
+  background-color: #fff;
+  padding: 0;
+}
+
+#authenticationpage main {
+  display: inline-block;
+  width: 599px;
+  height: 900px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: solid 5px black;
+  border-radius: 5px;
+}
+
+#authenticationpage h1 {
+  font-family: "Open Sans", Arial, sans-serif;
+  vertical-align: text-top;
+}
+
+#authenticationpage h2 {
+  font-family: "Open Sans", Arial, sans-serif;
+  display: inline-block;
+}
+
+#authenticationpage .authButton {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 700;
+  background-color: #00000000;
+  color: #00000000;
+  width: 150px;
+  height: 150px;
+  margin: 5px 50px;
+}
+
+#authenticationpage .buttonImg {
+  width: 150px;
+  height: 150px;
+  margin: 5px 50px;
+}
+
+#authenticationpage .authDiv {
+  display: inline-block;
+}
+
+#authenticationpage #userDiv {
+  text-align: center;
+}
+
+#authenticationpage #userProfile {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+}
+
+#authenticationpage #authSect { 
+  text-align: center;
+}
+
+#authenticationpage .buttonLabel {
+  display: block;
+  font-family: "Open Sans", Arial, sans-serif;
+  display: inline-block;
+}
+
+#authenticationpage .authButton {
+  
+}
+
+#authenticationpage #back {
+  display: inline-block;
+  width: 40%;
+  height: auto;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 30px;
+}
+
+/**
+I'll find a method to insert images in the buttons
+**/
+
+/*This applies from 600px onwards (desktop)*/
+@media (min-width: 600px) {
+  body {
+    
+  }
+}

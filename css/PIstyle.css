@@ -1,75 +1,75 @@
-.header{
+#container .header{
   background-color: red;
 }
-.title{
+#container .title{
   font-size: 50px;
   color: white;
 }
-#userPf{
+#container #userPf{
   font-size: 38px;
   
 }
-#expic{
+#container #expic{
   display: block;
   width: 35%;
   height: auto;
   margin: 0 auto;
 }
-#userName{
+#container #userName{
   text-align: center;
   font-size: 25px;
 }
-.picLinks{
+#container .picLinks{
   display: flex;  
 }
-.userInfo,
+#container .userInfo,
 .userDeposit{
   display: flex;  
   width: 50%;
   flex-direction: column;
   align-items: center;
 }
-.menuButton{
+#container .menuButton{
   width: 60px;
 }
-.navContainer{
+#container .navContainer{
   float: left;
 }
-.ddMenu{
+#container .ddMenu{
   background-color: white;
   display: none;
   position: absolute;
   width: 150px;
 }
-.ddMenu a {
+#container .ddMenu a {
   color: black;  
   padding: 12px 16px;  
   text-decoration: none;  
   display: block;
 }
 
-.dropdown:hover .ddMenu {  
+#container .dropdown:hover .ddMenu {  
   display: block;
 }
-#personInfo{
+#container #personInfo{
   margin-left: 3%;
 }
-#userPf{
+#container #userPf{
   margin-left: 4%;
 }
 
 @media (min-width: 580px) {
-  .userInfo,
+  #container .userInfo,
   .userDeposit {
     width: 50%;
   }
-  #userPf{
+  #container #userPf{
     font-size: 25px;
   }
-  #userName{
+  #container #userName{
     font-size: 20px;
   }
-  .ddMenu{
+  #container .ddMenu{
     font-family: inherit;
     margin: 0;
   }
@@ -77,11 +77,11 @@
 }
 
 @media (max-width: 580px) {
-  .userInfo,
+  #container .userInfo,
   .userDeposit {
     width: 80%; 
   }
-  #expic {
+  #container #expic {
     width: 80%; 
   }
 }

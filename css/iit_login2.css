@@ -1,4 +1,4 @@
-body {
+ body {
   position: relative;
   display: grid;
   text-align: center;
@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-main {
+#authenticationpage main {
   display: inline-block;
   width: 599px;
   height: 900px;
@@ -17,17 +17,17 @@ main {
   border-radius: 5px;
 }
 
-h1 {
+#authenticationpage h1 {
   font-family: "Open Sans", Arial, sans-serif;
   vertical-align: text-top;
 }
 
-h2 {
+#authenticationpage h2 {
   font-family: "Open Sans", Arial, sans-serif;
   display: inline-block;
 }
 
-.authButton {
+#authenticationpage .authButton {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 700;
   background-color: #00000000;
@@ -37,41 +37,41 @@ h2 {
   margin: 5px 50px;
 }
 
-.buttonImg {
+#authenticationpage .buttonImg {
   width: 150px;
   height: 150px;
   margin: 5px 50px;
 }
 
-.authDiv {
+#authenticationpage .authDiv {
   display: inline-block;
 }
 
-#userDiv {
+#authenticationpage #userDiv {
   text-align: center;
 }
 
-#userProfile {
+#authenticationpage #userProfile {
   height: 30px;
   width: 30px;
   display: inline-block;
 }
 
-#authSect { 
+#authenticationpage #authSect { 
   text-align: center;
 }
 
-.buttonLabel {
+#authenticationpage .buttonLabel {
   display: block;
   font-family: "Open Sans", Arial, sans-serif;
   display: inline-block;
 }
 
-.authButton {
+#authenticationpage .authButton {
   
 }
 
-#back {
+#authenticationpage #back {
   display: inline-block;
   width: 40%;
   height: auto;
