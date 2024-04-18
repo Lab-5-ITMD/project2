@@ -14,27 +14,27 @@ body {
   max-width: 800px;
 }
 
-h1 {
+#content h1 {
   font-size: 1.5em;
   padding: 1em 0;
   margin: 0;
 }
 
-ol li {
+#content ol li {
   list-style-type: none;
 }
 
-#input-username, 
+#content #input-username, 
 #input-password {
   text-align: left;
 }
 
-#input-username label, 
+#content #input-username label, 
 #input-password label {
   font-weight: bold;
 }
 
-#input-username input, 
+#content #input-username input, 
 #input-password input {
   box-sizing: border-box;
   margin: 0.4em o;
@@ -42,12 +42,12 @@ ol li {
   padding: 0.6em;
 }
 
-#input-submit-container {
+#content #input-submit-container {
   position: relative;
   margin-top: 20px;
 }
 
-#input-submit {
+#content #input-submit {
   padding: 0.8em;
   margin-top: 20px;
   border: none;
@@ -57,7 +57,7 @@ ol li {
   font-weight: bold;
 }
 
-#submit {
+#content #submit {
   padding: 0.8em;
   border-radius: 0.4em;
   color: white;
@@ -67,13 +67,13 @@ ol li {
   width: 100%;
 }
 
-#icons p {
+#content #icons p {
   display: inline-block; 
   width: 30%; 
   position: relative;
 }
 
-#icons img {
+#content #icons img {
   display: inline-block; 
   margin-left: 40px;
   margin-right:40px;  
@@ -90,25 +90,25 @@ ol li {
 	padding-bottom: 100px;
   }
 
-  h1 {
+  #content h1 {
     font-size: 1.2em;
   }
 
-  #input-username input, 
+  #content #input-username input, 
   #input-password input {
     padding: 0.4em;
   }
 
-  #input-submit {
+  #content #input-submit {
     height: 40px;
 	width: 80%;
   }
 
-  #icons p {
+  #content #icons p {
     width: 30%;
   }
   
-  #icons img {
+  #content #icons img {
     width: 20%;
 	display: inline-block;
 	margin-left: 15px;
