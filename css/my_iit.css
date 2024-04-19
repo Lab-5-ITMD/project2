@@ -27,7 +27,8 @@
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
-    margin: 0;
+    margin:auto;
+    position:absolute;
  }
   .welcome .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: red;
@@ -139,7 +140,7 @@
     overflow: hidden;
     background-color: black;
     font-family: 'Open Sans';
-	text-align:center;
+	  text-align:center;
   } 	 
   .welcome .navbar a {
     font-size: 16px;
@@ -185,6 +186,9 @@
     background-color: #ddd;
   }
   .welcome .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .welcome .dropbtn:active .dropdown-content {
     display: block;
   }
    .welcome .apps img {
@@ -262,10 +266,12 @@
     float:left;
     margin-left:90px;
   }
+  .show {display:block;}
 }
-.show {display:block;}
-/*iit login*/
 
+
+
+/*iit login*/
 body {
   margin: 0;
   padding: 0;
