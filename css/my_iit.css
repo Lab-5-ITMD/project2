@@ -6,7 +6,7 @@
     overflow: hidden;
     background-color: black;
     font-family: "Open Sans";
-	text-align:center;
+	  text-align:center;
   }
   .welcome.navbar a {
     font-size: 16px;
@@ -33,7 +33,7 @@
     background-color: red;
   }
   .welcome .dropdown-content {
-	margin-top:25px;
+	  margin-top:25px;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -86,19 +86,18 @@
 	  font-family:'Open Sans';
   }
   .welcome .studentinfo img {
-	width: 40px;
-    height: 40px;
-	border: solid red 10px;
-	border-radius:50%;
-	background-color: red;
-	margin-left:35%;
+	  width: 80px;
+    height: 80px;
+	  border: solid red 10px;
+	  border-radius:50%;
+	  background-color: red;
+	  margin:10px;
   }
   
   .welcome .material-symbols-outlined{
 	  color:red;
 	  font-size:30px;
-	  margin-top:30px;
-	  margin-left:35px;
+	  margin:20px;
   }
   .welcome .material-symbols-outlined:hover, .material-symbols-outlined:focus {
 	  cursor:pointer;
@@ -117,6 +116,7 @@
   .welcome .AccessIIT{
 	  font-size:30px;
 	  float:left;
+    margin:20px;
 	  
   }
   .welcome .navbar{
@@ -128,9 +128,10 @@
 	  width: 550px;
 	  height:350px;
   }
-
+  .show {display:block;}
+  
+  
 /*This applies from 600px onwards (desktop) Welcome Page*/
-
 @media (min-width: 600px) {
   body {
     background: white;
@@ -139,7 +140,7 @@
     overflow: hidden;
     background-color: black;
     font-family: 'Open Sans';
-	text-align:center;
+	  text-align:center;
   } 	 
   .welcome .navbar a {
     font-size: 16px;
@@ -161,16 +162,17 @@
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    position:absolute;
  }
   .welcome .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: black;
   }
   .welcome .dropdown-content {
-	margin-top:25px;
+	  margin-top:25px;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 1500px;
+    min-width: 1520px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
   .welcome .dropdown-content a {
@@ -187,6 +189,9 @@
   .welcome .dropdown:hover .dropdown-content {
     display: block;
   }
+  .welcome .dropbtn:active .dropdown-content {
+    display: block;
+  }
    .welcome .apps img {
 	   width: 150px;
 	   height:150px;
@@ -201,15 +206,13 @@
     }
   .welcome .studentinfo {
 	  float:left;
-	  clear:right; 	
-	  width:50%;
-	  margin-left:10%;
+    clear:right;
+    width:35%;
 	  background-color:red;
 	  border:10px 20px;
 	  border-radius:10%;
-	  max-width:520px;
-	  margin:auto;
-	  margin-top: 2rem;
+	  max-width:500px;
+	  margin:30px 30px;
 	  padding:10px;
 	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
   }
@@ -220,12 +223,12 @@
 	  font-family:'Open Sans';
   }
   .welcome .studentinfo img {
-	width: 200px;
+	  width: 200px;
     height: 200px;
-	border: solid red 10px;
-	border-radius:50%;
-	background-color: red;
-	margin-left:150px;
+	  border: solid red 10px;
+	  border-radius:50%;
+	  background-color: red;
+    margin:10px;
   }
   .welcome .material-symbols-outlined{
 	  color:red;
@@ -260,9 +263,16 @@
 	  width: 1500px;
 	  height:1200px;
   }
+  .welcome .calendar h1{
+    float:left;
+    margin-left:90px;
+  }
+  
 }
-/*iit login*/
 
+
+
+/*iit login*/
 body {
   margin: 0;
   padding: 0;
