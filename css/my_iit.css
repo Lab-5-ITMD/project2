@@ -6,7 +6,7 @@
     overflow: hidden;
     background-color: black;
     font-family: "Open Sans";
-	text-align:center;
+	  text-align:center;
   }
   .welcome.navbar a {
     font-size: 16px;
@@ -27,14 +27,13 @@
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
-    margin:auto;
-    position:absolute;
+    margin: 0;
  }
   .welcome .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: red;
   }
   .welcome .dropdown-content {
-	margin-top:25px;
+	  margin-top:25px;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -130,8 +129,9 @@
 	  height:350px;
   }
   .show {display:block;}
+  
+  
 /*This applies from 600px onwards (desktop) Welcome Page*/
-
 @media (min-width: 600px) {
   body {
     background: white;
@@ -162,16 +162,17 @@
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    position:absolute;
  }
   .welcome .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: black;
   }
   .welcome .dropdown-content {
-	margin-top:25px;
+	  margin-top:25px;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 1500px;
+    min-width: 1520px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
   .welcome .dropdown-content a {
@@ -266,7 +267,7 @@
     float:left;
     margin-left:90px;
   }
-  .show {display:block;}
+  
 }
 
 
