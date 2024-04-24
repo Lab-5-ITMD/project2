@@ -1,3 +1,21 @@
+
+document.addEventListener("DOMContentLoaded", function() {
+  var form = document.querySelector("form");
+
+  form.addEventListener("submit", function(event) {
+    event.preventDefault();
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    var question = document.getElementById("question").value;
+
+    if (username && password && question) {
+      window.location.href = "https://lab-5-itmd.github.io/project2/sign_in2.html";
+    } else {
+      alert("Please fill out all fields.");
+    }
+  });
+});
+
 function ValidateEmail(email) {
   var re =
     /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
