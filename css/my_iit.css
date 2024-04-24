@@ -300,17 +300,17 @@ body {
 }
 
 #content #input-username, 
-#input-password {
+#input-password, #input-question {
   text-align: left;
 }
 
 #content #input-username label, 
-#input-password label {
+#input-password label, #input-question label {
   font-weight: bold;
 }
 
 #content #input-username input, 
-#input-password input {
+#input-password input, #input-question input {
   box-sizing: border-box;
   margin: 0.4em o;
   width: 100%;
@@ -357,6 +357,7 @@ body {
   height: auto; 
   border: solid;
   border-radius: 0.5em;
+  border-color: black;
 }
 
 @media (max-width: 600px) {

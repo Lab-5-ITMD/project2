@@ -7,13 +7,18 @@
 	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <link rel="stylesheet" media="screen" href="css/my_iit.css">
     <title>Login Page</title>
-	<script src="js/scripts.js"></script>
+	<script src="js/site.js" async></script>
   </head>
-
+  <div id="container">
+    <header class="header">
+      <a class = "title" href="https://lab-5-itmd.github.io/project2/index.html">ILLINOIS TECH</a>
+    </header>
+  </div>
   <body>
     <main id="content">
-	  <form method="get" action="https://lab-5-itmd.github.io/project2/signIn2.html" autocomplete="on">
-	    <h1>Make sure to use your regular university username and current password</h1>
+	  <form method="get" action="https://lab-5-itmd.github.io/project2/sign_in2.html" autocomplete="on">
+	    <h1>Do you have a question about Illinois Institute of Technology? Sign in and fill out the form below and we'll get back to you shortly!</h1>
+	    <h3>Make sure to use your regular university username and current password</h3>
 		<ol>
 		  <li id="input-username">
 		    <label for="username">Username</label>
@@ -23,6 +28,10 @@
 		    <label for="password">Password</label>
 			<input type="password" name="password" id="password" placeholders="Enter your password" required>
 		  </li>
+		  <li id="input-question">
+		    <label for="question">Your Question</label>
+			<input type="text" name="question" id="question" placeholders="Enter your question(s)" required>
+		  </li>
 		  <li id="input-submit">
 		    <input type="submit" name="submit" id="submit" value="Sign In">
 		  </li>
@@ -31,9 +40,9 @@
 		<p>Forgot Password?</p>
 		<p>Unlock Account?</p>
 		<p>Need Assistance?</p>
-		<img src="media/forgotpass.jpg" alt="guy with question mark">
-		<img src="media/lock.jpg" alt="unlocked red lock">
-		<img src="media/help.jpeg" alt="red help sign">
+		<a href="https://www.iit.edu/ots/access/password-reset-instructions#:~:text=You%20can%20reset%20your%20password,your%20password%20to%20be%20reset."><img src="media/forgotpass.jpg" alt="guy with red question mark"></a>
+		<a href="https://www.iit.edu/ots/access/access-illinois-tech/activating-your-access-illinois-tech-account"><img src="media/lock.jpg" alt="unlocked red lock"></a>
+		<a href="https://www.iit.edu/housing/resident-resources/support-desk"><img src="media/help.jpeg" alt="red help sign"></a>
 		</section>
 	  </form>
 	</main>
