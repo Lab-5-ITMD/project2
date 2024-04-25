@@ -191,16 +191,16 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 1520px;
+    min-width: 1500px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
   .welcome .dropdown-content a {
-    float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: center;
+    margin-right:20px;
   }
   .welcome .dropdown-content a:hover {
     background-color: #ddd;
@@ -519,11 +519,11 @@ body {
 }
 
 #authenticationpage main {
-  display: inline-block;
-  width: 599px;
-  height: 900px;
+  margin: 50px auto 20px auto;
+  display: grid;
+  width: 400px;
+  height: 1600px;
   padding: 10px;
-  margin: 0 auto;
   background-color: #fff;
   border: solid 5px black;
   border-radius: 5px;
@@ -536,7 +536,9 @@ body {
 
 #authenticationpage h2 {
   font-family: "Open Sans", Arial, sans-serif;
-  display: inline-block;
+  display: block;
+  text-align:center;
+  clear:left;
 }
 
 #authenticationpage .authButton {
@@ -550,13 +552,14 @@ body {
 }
 
 #authenticationpage .buttonImg {
-  width: 150px;
-  height: 150px;
+  width: 50px;
+  height: 50px;
   margin: 5px 50px;
 }
 
 #authenticationpage .authDiv {
-  display: inline-block;
+  display: block;
+  left: 
 }
 
 #authenticationpage #userDiv {
@@ -564,8 +567,8 @@ body {
 }
 
 #authenticationpage #userProfile {
-  height: 30px;
-  width: 30px;
+  height: 150px;
+  width: 150px;
   display: inline-block;
 }
 
@@ -573,16 +576,12 @@ body {
   text-align: center;
 }
 
-#authenticationpage .buttonLabel {
-  display: block;
+#authenticationpage .aLabel {
+  display: grid;
   font-family: "Open Sans", Arial, sans-serif;
-  display: inline-block;
-}
-
-#authenticationpage .authButton {
+  text-decoration:underline;
   
 }
-
 #authenticationpage #back {
   display: inline-block;
   width: 40%;
@@ -593,7 +592,7 @@ body {
 }
 
 /**
-I'll find a method to insert images in the buttons
+I'll find a method to insert images in the buttons 
 **/
 
 /*This applies from 600px onwards (desktop)*/
@@ -601,4 +600,20 @@ I'll find a method to insert images in the buttons
   body {
     
   }
+  #authenticationpage main {
+  margin: 50px auto 20px auto;
+  display: grid;
+  width: 1000px;
+  height: 1500px;
+  padding: 10px;
+  background-color: #fff;
+  border: solid 5px black;
+  border-radius: 5px;
+}
+  #authenticationpage .buttonImg {
+    width: 150px;
+    height: 1px;
+    margin: 5px 50px;
+  }
+  
 }
