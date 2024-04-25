@@ -358,7 +358,6 @@ body {
   cursor: pointer;
   height: 50px;
   width: 90%;
-  font-weight: bold;
 }
 
 #content #submit {
@@ -366,6 +365,8 @@ body {
   border-radius: 0.4em;
   color: white;
   background-color: red;
+  font-weight: bold;
+  font-size: 1.3em;
   margin-left: 20px;
   font-family: 'Open Sans', 'Arial', sans-serif;
   width: 100%;
